@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Recommender</title>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+    <div id="clickToStart" onclick="displayProducts()">
+        Click to get product list
+    </div>
+    <div id="mainContainer">
+        <div id="ratingForm">
+            <h2>Rate a Product</h2>
+            <div>
+                <label for="productName">Select a Product:</label>
+                <select id="productName"></select>
+            </div>
+            <br>
+            <div>
+                <label for="rating">Rate the Product (1-5):</label>
+                <input type="number" id="rating" min="1" max="5" required>
+            </div>
+            <button class="niceButton" onclick="submitRating()">Submit Rating</button>
+        </div>
+    
+        <div id="recommendation">
+            <h2>Recommended Products</h2>
+            <p id="recommendedProducts">No recommendations yet.</p>
+        </div>
+    </div>
+
+    <script src="source.js"></script>
+</body>
+
+</html>

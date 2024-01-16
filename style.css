@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#clickToStart {
+    max-width: 200px;
+    padding: 10px;
+    height: 30px;
+    margin:auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+    border: 2px solid chocolate;
+    border-radius: 8px;
+    color: white;
+    transition: 200ms;
+    font-size: 16px;
+    font-weight: 600;
+}
+#clickToStart:hover {
+    background-color: transparent;
+    border: 2px solid chocolate;
+    color: chocolate;
+    transition: 200ms;
+}
+#mainContainer {
+    display: none;
+}
+
+#ratingForm {
+    /* display: none; */
+    max-width: 400px;
+    margin: auto;
+}
+
+#recommendation {
+    margin-top: 20px;
+}
+
+.niceButton {
+    min-width: 120px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px;
+    padding: 10px;
+    background-color: chocolate;
+    border: 2px solid chocolate;
+    border-radius: 8px;
+    color: white;
+    transition: 200ms;
+}
+
+.niceButton:hover {
+    background-color: transparent;
+    border: 2px solid chocolate;
+    color: chocolate;
+    transition: 200ms;
+}
